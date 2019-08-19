@@ -20,7 +20,7 @@ app.use('/api', router) // Listen to the public REST endpoints
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  /* context: ({ req }) => {
+  context: ({ req }) => {
     // get the user token from the headers
     const authorization = req.headers.authorization || ''
     const token = authorization.split('Bearer ')[1]
@@ -28,7 +28,7 @@ const server = new ApolloServer({
     const context = decodeToken(token)
     if (!context.authenticated) throw new AuthenticationError('invalid token')
     return context
-  } */
+  }
 })
 
 // Applies express app
