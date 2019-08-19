@@ -1,4 +1,4 @@
-# REST + Graphql
+# REST-Graphql-server
 This project consists in creating a basic structure wich uses both REST and Graphql patterns, by using Express and Apollo Server frameworks.
 
 ## Explanation
