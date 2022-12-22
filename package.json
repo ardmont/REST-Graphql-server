@@ -27,7 +27,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "graphql": "^14.4.2",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "standard": {
     "parser": "babel-eslint",
